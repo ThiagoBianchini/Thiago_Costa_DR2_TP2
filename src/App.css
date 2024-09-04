@@ -1,0 +1,61 @@
+html, body, #root{
+  margin: 0 auto;
+  height: 100%;
+  background-color: #121212;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exercicio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.container a:hover{
+  background-color: #282727;
+}
+
+.container a:active{
+  background-color: #636363;
+}
+
+.container nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
